@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Registration System</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration System</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- header -->
- <header
-<div class="heading">Student Registration System</div>
-<div class="description">A student form to enter, edit, and delete details like name, ID, and other information.</div>
-</header>
-<!-- form -->
- <div class="heading2">Register Student </div>
- <div class="studentForm">
-    <form >
-        <label for="name">Student Name</label>
-        <input type="text" id="name" name="name" required>
+  <!-- Header -->
+  <div class="heading">Student Registration System</div>
+  <div class="description">
+    A student form to enter, edit, and delete details like name, ID, and other information.
+  </div>
 
-        <label for="studentid">Student ID</label>
-        <input type="number" id="studentid" name="name" required>
+  <!-- Registration Form -->
+  <div class="box">
+    <form>
+      <div class="heading2">Register Student</div>
 
-        <label for="email">Email ID </label>
-        <input type="email" id="email" name="name" required>
+      <div class="studentForm">
 
-        <label for="tel">Contact number</label>
-        <input type="tel" id="tel" name="name" required>
+        <div class="studentname">
+          <label for="name">Student Name :</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <br>
 
-        <button type="submit">Submit</button>
+        <div class="studentid">
+          <label for="studentid">Student ID :</label>
+          <input type="number" id="studentid" name="id" required>
+        </div>
+        <br>
+
+        <div class="email">
+          <label for="email">Email ID :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+
+        <div class="contactnumber">
+          <label for="number">Contact Number :</label>
+          <input type="number" id="number" name="number" required>
+        </div>
+        <br>
+
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
+
+      </div>
     </form>
-</div>
-<!-- registered students -->
+  </div>
 
-<div class="heading3">Registered Students</div>
-
-<table class="registeredStudents">
+  <!-- Registered Students -->
+  <div class="heading3">Registered Students</div>
+  <table class="registeredStudents">
     <thead class="tableHead">
-        <tr>
-            <th>Name</th>
-            <th>ID</th>
-            <th>Email</th>
-            <th>Number</th>
-            <th>Action</th>
-        </tr>
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Number</th>
+        <th>Action</th>
+      </tr>
     </thead>
-</table>
+    <tbody>
+      <!-- Student rows will be added dynamically with JavaScript -->
+    </tbody>
+  </table>
 
-
-    
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
