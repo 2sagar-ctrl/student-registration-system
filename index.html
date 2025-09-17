@@ -8,6 +8,46 @@
 </head>
 <body>
 
+    <!-- header -->
+ <header
+<div class="heading">Student Registration System</div>
+<div class="description">A student form to enter, edit, and delete details like name, ID, and other information.</div>
+</header>
+<!-- form -->
+ <div class="heading2">Register Student </div>
+ <div class="studentForm">
+    <form >
+        <label for="name">Student Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="studentid">Student ID</label>
+        <input type="number" id="studentid" name="name" required>
+
+        <label for="email">Email ID </label>
+        <input type="email" id="email" name="name" required>
+
+        <label for="tel">Contact number</label>
+        <input type="tel" id="tel" name="name" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<!-- registered students -->
+
+<div class="heading3">Registered Students</div>
+
+<table class="registeredStudents">
+    <thead class="tableHead">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Number</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+</table>
+
 
     
     <script src="script.js"></script>
