@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    border: 2px solid black ;
+   text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    width: 300px;
+    height: 50px;
+    font-size: larger;    
+    margin: auto;
+}
+.description{
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px auto;
+    font-size: larger;
+    font-weight: 500;
+    width: 500px;
+    height: 50px;
+}
+.heading2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    margin: 20px auto;
+    border: 3px solid black ;
+    width: 700px;
+     
+}
+.studentname {
+    border: 2px solid #333;
+    padding: 10px 20px;
+    margin: 2px auto;
+    width: 400px;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+   
+}
+.studentid {
+    border: 2px solid #555;
+    padding: 10px 20px;
+    margin: 2px auto;
+    width: 400px;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    background-color: #eef2f7;
+    border-radius: 8px;
+}
+.email {
+    border: 2px solid #555;
+    padding: 10px 20px;
+    margin: 2px auto;
+    width: 400px;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    background-color: #eef2f7;
+    border-radius: 8px;
+}
+.contactnumber {
+    border: 2px solid #555;
+    padding: 10px 20px;
+    margin: 2px auto;
+    width: 400px;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    background-color: #eef2f7;
+    border-radius: 8px;
+}
+.submit {
+   
+    padding: 10px 20px;
+    margin:  auto;
+    width: 400px;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    
+    border-radius: 8px;
+}
+
+
