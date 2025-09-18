@@ -16,13 +16,13 @@
 
     <!-- Registration Form -->
     <div class="box">
-      <form>
+      <form id="studentForm">
         <div class="heading2">Register Student</div>
 
         <div class="studentForm">
           <div class="studentname">
-            <label for="name">Student Name :</label>
-            <input type="text" id="name" name="name" required />
+            <label for="studentname">Student Name :</label>
+            <input type="text" id="studentname" name="name" required />
           </div>
           <br />
 
@@ -39,8 +39,8 @@
           <br />
 
           <div class="contactnumber">
-            <label for="number">Contact Number :</label>
-            <input type="number" id="number" name="number" required />
+            <label for="contactnumber">Contact Number :</label>
+            <input type="number" id="contactnumber" name="number" required />
           </div>
           <br />
 
@@ -52,6 +52,7 @@
     </div>
 
     <!-- Registered Students -->
+
     <table class="registeredStudents">
       <thead class="tableHead">
         <tr class="tablerows">
@@ -62,10 +63,11 @@
           <th>Action</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="studentsTableBody">
         <!-- Student rows will be added dynamically with JavaScript -->
       </tbody>
     </table>
+
     <footer class="github">
       <a
         href="https://github.com/2sagar-ctrl/student-registration-system.git"
